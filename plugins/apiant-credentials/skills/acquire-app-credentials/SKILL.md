@@ -132,15 +132,15 @@ prove they work.
 ## The poke protocol — how to ask for a human
 
 When you hit something you cannot do: **ask ONE precise question and END THE TURN.** That is the
-whole mechanism. The host's own notification reaches the person's phone; there is no notify tool,
-no channel to configure, and nothing to set up.
+whole mechanism. Claude Code notifies the person natively the moment the session stops waiting
+for input; there is no notify tool, no channel to configure, and nothing to set up.
 
 **The first words of your question must say which kind of help it is**, because we do not control
-the text of that notification and the first words are what the person sees:
+how much of the question the notification shows, and the first words are what the person sees:
 
-> **Needs you at your desk** — the Google sign-in page is showing a captcha. …
+> **Needs you at the browser** — the Google sign-in page is showing a captcha. …
 
-> **Answerable from your phone** — which Salesforce org should this app live in, production or
+> **Answerable in one line** — which Salesforce org should this app live in, production or
 > sandbox? …
 
 Then stop. Do not narrate, do not keep working, and do not ask a second question in the same turn.
@@ -149,7 +149,7 @@ Then stop. Do not narrate, do not keep working, and do not ask a second question
 
 | Wall | What to do |
 |---|---|
-| **Captcha** | Poke. Needs them at their desk. |
+| **Captcha** | Poke. Needs them at the browser. |
 | **MFA / authenticator app** | Poke. |
 | **SMS one-time code** | **Do NOT poke** if a pool number was allocated for this app — read the code with `get_sms_code`. Poke only if there is no number or the vendor rejects it. |
 | **Credit card / card-gated trial** | **Never poke, never enter a card, never start the trial.** Park the app and move on. This one is absolute. |
@@ -189,6 +189,9 @@ lack is knowing which portal page, which scopes, and which exact redirect URI. S
 reverse:
 
 - **The person does the login and the MFA.** Never ask for a password, and never type one.
+  **This rule is the CUSTOMER lane's alone.** It exists because the account is theirs. In the
+  operator lane the account is APIANT's own ops account and creating it is your job — follow the
+  served playbook, not this line.
 - **You do the portal navigation, the scope selection, and copying the values back.** That is the
   part they came for.
 - **A timeout is never a silent abandon.** If they walk away, record where you got to, tell them

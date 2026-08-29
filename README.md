@@ -1,6 +1,6 @@
 # APIANT plugins for Claude
 
-A Claude Code / Claude Cowork plugin marketplace from [APIANT](https://apiant.ai).
+A Claude Code plugin marketplace from [APIANT](https://apiant.ai).
 
 ## Install
 
