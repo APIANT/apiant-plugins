@@ -14,7 +14,7 @@ In Claude, open the plugin manager and add this repository as a marketplace:
 Or use **Settings → Plugins → Add from a repository** and pick `apiant-credentials` from the
 Discover tab.
 
-Installing the plugin registers the APIANT MCP server (`https://app.apiant.ai/mcp`). The first
+Installing the plugin registers the APIANT MCP server (`https://mcp.apiant.ai`). The first
 time a skill calls it, Claude signs you in with your APIANT account through the browser. **There
 is no token to paste and no client ID to configure** — the server publishes OAuth metadata and
 registers the client automatically.
