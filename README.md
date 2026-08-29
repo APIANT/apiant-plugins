@@ -8,10 +8,10 @@ In Claude, open the plugin manager and add this repository as a marketplace:
 
 ```
 /plugin marketplace add APIANT/apiant-plugins
-/plugin install apiant-credentials@apiant
+/plugin install apiant-creds@apiant
 ```
 
-Or use **Settings → Plugins → Add from a repository** and pick `apiant-credentials` from the
+Or use **Settings → Plugins → Add from a repository** and pick `apiant-creds` from the
 Discover tab.
 
 Installing the plugin registers the APIANT MCP server (`https://mcp.apiant.ai`). The first
@@ -21,7 +21,7 @@ registers the client automatically.
 
 ## What's here
 
-### `apiant-credentials`
+### `apiant-creds`
 
 One skill, `get-credentials`. It drives a browser through a vendor's developer portal to
 obtain an app's credentials — signing in, registering the application, pasting the exact redirect

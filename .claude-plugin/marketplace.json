@@ -7,8 +7,8 @@
   },
   "plugins": [
     {
-      "name": "apiant-credentials",
-      "source": "./plugins/apiant-credentials",
+      "name": "apiant-creds",
+      "source": "./plugins/apiant-creds",
       "description": "Obtain an app's credentials by driving the vendor's own developer portal in a browser. Claude drives; it asks you only at the walls a browser cannot pass."
     }
   ]
