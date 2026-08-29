@@ -1,10 +1,10 @@
 ---
-name: get-credentials
+name: get-creds
 description: Get an app's credentials by driving a browser through the vendor's own developer portal — signing in, registering the application, selecting scopes, and saving the result where APIANT reads it back at connect time. Claude drives; it asks you only for what it genuinely cannot do. Use when the user says "acquire credentials", "register an oauth app", "get the client id and secret", "I need my own keys for this app", "work the credential queue", or names an app whose credentials are missing.
 user_invocable: true
 ---
 
-# /get-credentials — Obtain an App's Credentials by Driving the Portal
+# /get-creds — Obtain an App's Credentials by Driving the Portal
 
 Vendor developer portals are the same chore every time: find the right page, register an
 application, paste the exact redirect URI, pick the scopes, copy two values back. This skill does
