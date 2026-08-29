@@ -23,7 +23,7 @@ registers the client automatically.
 
 ### `apiant-credentials`
 
-One skill, `acquire-app-credentials`. It drives a browser through a vendor's developer portal to
+One skill, `get-credentials`. It drives a browser through a vendor's developer portal to
 obtain an app's credentials — signing in, registering the application, pasting the exact redirect
 URI, selecting scopes, and saving the result where APIANT reads it back at connect time.
 
