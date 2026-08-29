@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "apiant": {
+      "type": "http",
+      "url": "https://app.apiant.ai/mcp"
+    }
+  }
+}

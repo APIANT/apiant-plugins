@@ -1,0 +1,13 @@
+{
+  "name": "apiant-credentials",
+  "description": "Credential acquisition for APIANT. Registers an application on a vendor's developer portal in a browser and saves the result where APIANT reads it back at connect time. Every app-specific fact is served by the APIANT MCP server at call time; nothing is baked into this plugin.",
+  "version": "0.1.0",
+  "author": {
+    "name": "APIANT",
+    "email": "support@apiant.com",
+    "url": "https://apiant.ai"
+  },
+  "homepage": "https://apiant.ai",
+  "license": "MIT",
+  "keywords": ["apiant", "oauth", "credentials", "integration", "automation"]
+}

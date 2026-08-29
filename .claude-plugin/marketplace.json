@@ -1,0 +1,15 @@
+{
+  "name": "apiant",
+  "owner": {
+    "name": "APIANT",
+    "email": "support@apiant.com",
+    "url": "https://apiant.ai"
+  },
+  "plugins": [
+    {
+      "name": "apiant-credentials",
+      "source": "./plugins/apiant-credentials",
+      "description": "Obtain an app's credentials by driving the vendor's own developer portal in a browser. Claude drives; it asks you only at the walls a browser cannot pass."
+    }
+  ]
+}
