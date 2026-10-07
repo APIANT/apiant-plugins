@@ -5,5 +5,14 @@
     "email": "support@apiant.com",
     "url": "https://apiant.ai"
   },
-  "plugins": []
+  "metadata": {
+    "description": "Claude plugins from APIANT, the automation and integration platform."
+  },
+  "plugins": [
+    {
+      "name": "apiant",
+      "source": "./plugins/apiant",
+      "description": "Build, test and run APIANT automations and app integrations from Claude."
+    }
+  ]
 }

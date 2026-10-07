@@ -1,0 +1,15 @@
+{
+  "name": "apiant",
+  "displayName": "APIANT",
+  "description": "Build, test and run APIANT automations and app integrations from Claude. Connects Claude to the APIANT MCP server at https://mcp.apiant.ai; you sign in with your APIANT account and the server supplies the tools and how-to guides over that connection.",
+  "version": "1.0.0",
+  "author": {
+    "name": "APIANT",
+    "email": "support@apiant.com",
+    "url": "https://apiant.ai"
+  },
+  "homepage": "https://apiant.ai",
+  "repository": "https://github.com/APIANT/apiant-plugins",
+  "license": "MIT",
+  "keywords": ["apiant", "automation", "integration", "workflow", "api"]
+}

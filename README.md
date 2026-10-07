@@ -1,12 +1,20 @@
 # APIANT plugins for Claude
 
-A Claude Code plugin marketplace from [APIANT](https://apiant.ai).
+A Claude plugin marketplace from [APIANT](https://apiant.ai).
 
-**This marketplace is currently empty.** It is reserved for the customer-facing
-APIANT plugins and is not yet ready to install.
+## Install
 
-If you already run APIANT, the skills you want ship with your install: open the
-Automation Editor or Assembly Editor menu and click **Connect to Claude Code** for
-the one-liner that registers them.
+```
+/plugin marketplace add APIANT/apiant-plugins
+/plugin install apiant@apiant
+```
+
+Or use **Settings → Plugins → Add from a repository**.
+
+## Plugins
+
+- **[`apiant`](plugins/apiant)** — build, test and run APIANT automations and app
+  integrations from Claude. Connects Claude to the APIANT MCP server; you sign in with your
+  APIANT account.
 
 Questions: [support@apiant.com](mailto:support@apiant.com)
