@@ -10,6 +10,7 @@
   },
   "homepage": "https://apiant.ai",
   "repository": "https://github.com/APIANT/apiant-plugins",
+  "privacyPolicyUrl": "https://apiant.ai/privacy",
   "license": "MIT",
   "keywords": ["apiant", "automation", "integration", "workflow", "api"]
 }
