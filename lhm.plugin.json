@@ -1,0 +1,18 @@
+{
+  "identifier": "apiant-apiant-plugins",
+  "name": "APIANT",
+  "version": "1.0.0",
+  "author": "APIANT",
+  "authorUrl": "https://apiant.ai",
+  "homepage": "https://apiant.ai",
+  "cloudEndpoint": "https://mcp.apiant.ai",
+  "description": "Build, test and run automations and app integrations by describing them in plain language. Connect your apps, fix failed runs, and add new apps on demand. Sign in with your APIANT account; no API key to paste.",
+  "tags": ["automation", "integration", "workflow", "api", "zapier-alternative", "no-code"],
+  "tools": [
+    {"name": "apiant_skill_load", "description": "Load an APIANT how-to guide (build an automation, connect an app, diagnose a failed run) so the agent follows APIANT's own procedure."},
+    {"name": "apiant_search_tools", "description": "Find the APIANT operation that fits the task."},
+    {"name": "apiant_call", "description": "Run an APIANT operation in your account."}
+  ],
+  "prompts": [],
+  "resources": []
+}
